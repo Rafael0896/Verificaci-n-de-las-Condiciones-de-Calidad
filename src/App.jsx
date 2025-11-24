@@ -4,6 +4,7 @@ import Header from './components/Header';
 import ProcessLogTable from "./components/ProcessLogTable.jsx";
 import BestPractices from "./components/BestPractices.jsx";
 import QualityMetrics from "./components/QualityMetrics.jsx";
+import EvaluationActivities from "./components/EvaluationActivities.jsx";
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
                     <ProcessLogTable />
                     <BestPractices />
                     <QualityMetrics />
+                    <EvaluationActivities />
                 </main>
             </div>
         </div>

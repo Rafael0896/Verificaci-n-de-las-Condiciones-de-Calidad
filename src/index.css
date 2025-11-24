@@ -300,3 +300,61 @@ body {
 .metric-value.warning {
     color: #d69e2e;
 }
+
+
+/* Activities List */
+.activities-list {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.activity-item {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.activity-item:hover {
+    transform: translateX(5px);
+}
+
+.activity-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.activity-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #e2e8f0;
+    color: #718096;
+    flex-shrink: 0;
+}
+
+.activity-icon.completed {
+    background-color: #c6f6d5;
+    color: #22543d;
+}
+
+.activity-name {
+    font-size: 1.2rem;
+    color: #2d3748;
+    font-weight: 600;
+}
+
+.activity-description {
+    color: #4a5568;
+    line-height: 1.6;
+    padding-left: 50px;
+}
