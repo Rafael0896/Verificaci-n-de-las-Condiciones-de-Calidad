@@ -420,3 +420,45 @@ body {
     line-height: 1.5;
     margin: 0;
 }
+
+/* Footer Styles */
+.footer {
+    background-color: #2d3748;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 8px 0;
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 1.8rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+
+    .cards-grid,
+    .tools-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .process-table {
+        font-size: 0.85rem;
+    }
+
+    .process-table th,
+    .process-table td {
+        padding: 10px;
+    }
+}

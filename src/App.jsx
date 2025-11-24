@@ -5,6 +5,7 @@ import ProcessLogTable from "./components/ProcessLogTable.jsx";
 import BestPractices from "./components/BestPractices.jsx";
 import QualityMetrics from "./components/QualityMetrics.jsx";
 import EvaluationActivities from "./components/EvaluationActivities.jsx";
+import Footer from './components/Footer';
 
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
                     <EvaluationActivities />
                     <EvaluationActivities />
                 </main>
+                <Footer />
             </div>
         </div>
     );
