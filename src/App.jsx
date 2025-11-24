@@ -17,6 +17,7 @@ export default function App() {
                     <BestPractices />
                     <QualityMetrics />
                     <EvaluationActivities />
+                    <EvaluationActivities />
                 </main>
             </div>
         </div>

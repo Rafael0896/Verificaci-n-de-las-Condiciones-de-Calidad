@@ -358,3 +358,65 @@ body {
     line-height: 1.6;
     padding-left: 50px;
 }
+
+/* Tools Grid */
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.tool-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.tool-icon-large {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tool-name {
+    font-size: 1.5rem;
+    color: #2d3748;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.tool-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tool-detail-item {
+    border-left: 3px solid #667eea;
+    padding-left: 15px;
+}
+
+.tool-detail-item strong {
+    color: #667eea;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tool-detail-item p {
+    color: #4a5568;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+}
