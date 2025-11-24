@@ -1,6 +1,7 @@
 import React from 'react';
 const application = "application";
 import Header from './components/Header';
+import ProcessLogTable from "./components/ProcessLogTable.jsx";
 
 
 export default function App() {
@@ -9,6 +10,7 @@ export default function App() {
             <div>
                 <Header />
                 <main>
+                    <ProcessLogTable />
 
                 </main>
             </div>
