@@ -24,7 +24,7 @@ body {
 
 /* Header Styles */
 .header {
-    background: linear-gradient(135deg, #0e0e0e 0%, #1b0233 100%);
+    background: linear-gradient(135deg, #0e0e0e 0%, #1f1e20 100%);
     color: white;
     padding: 45px 20px;
     text-align: center;
@@ -304,7 +304,7 @@ body {
 
 /* Activities List */
 .activities-list {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
