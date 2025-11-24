@@ -210,3 +210,93 @@ body {
     color: #667eea;
     font-weight: bold;
 }
+/* Quality Metrics */
+.characteristics-container {
+    margin-bottom: 40px;
+}
+
+.characteristic-block {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.characteristic-name {
+    font-size: 1.3rem;
+    color: #667eea;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.subcharacteristics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.subcharacteristic-item {
+    background: #f7fafc;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #4a5568;
+}
+
+.subcharacteristic-item strong {
+    color: #2d3748;
+}
+
+/* Metrics Grid */
+.metrics-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+}
+
+.metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.metric-card {
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #e2e8f0;
+    transition: border-color 0.3s ease;
+}
+
+.metric-card:hover {
+    border-color: #667eea;
+}
+
+.metric-name {
+    font-size: 0.9rem;
+    color: #4a5568;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.metric-value.good {
+    color: #38a169;
+}
+
+.metric-value.excellent {
+    color: #2f855a;
+}
+
+.metric-value.warning {
+    color: #d69e2e;
+}
